@@ -1,6 +1,6 @@
 filename = 'birthday_data.csv'
 txt = File.open(filename)
-txt = txt.read()
+txt = txt.read
 big_arr = []
 
 txt.each_line do |line|
